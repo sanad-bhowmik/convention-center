@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+/* Header start  */
+nav{
+    height: 80px;
+}
+/* Banner start  */
+.carousel-caption{
+    bottom: 20%;
+}
+.carousel-item:nth-child(2)::before, .carousel-item:nth-child(3)::before, .carousel-item:nth-child(4)::before{
+    content: "";
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#banner svg{
+    background-color: #898989;
+    border-radius: 50px;
+}
+
+/* toast start  */
+.toast{
+    width: 250px;
+    top: 50%;
+    right: 10px;
+    left: auto;
+}
+.toast{
+    border-left: 6px solid #0D6EFD;
+}
+
+/* ---------------
+Price Start 
+----------------- */
+#package .row{
+    margin: 40px 0;
+}
+.weedding {
+    transform: translate(0px, -40px);
+}
+.text-pri{
+    color: #221D4F;
+    font-weight: 600;
+}
+#package .list-group-item{
+    background: transparent;
+}
+.weedding-plus .list-group-item{
+    color: #ffffff !important;
+}
+.weedding-plus{
+    background-color: #3F87F5;
+    border-radius: 26px;
+    padding-left: 20px !important;
+}
+.package-content{
+    padding: 50px 10px;
+    transition: 0.5s;
+    border-radius: 16px;
+}
+.package-content:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.badge{
+    left: auto;
+    right: 20px;
+}
+
+/* FAQ accordion start  */
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+    box-shadow: 0px 1px #DFDFDF66;
+}
+.Fbgcolor{
+    background-color: #0B0D17;
+}
+
+/* contact us  */
+.card{
+    transition: 0.7s;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.form-shadow{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer start  */
+footer .row{
+    height: 300px;
+}
+.col-content{
+    width: fit-content;
+}
+
+/* Mobile and tablet responsive  */
+
+@media screen and (max-width: 768px) {
+    nav{
+        height: auto;
+    }
+    .weedding {
+        transform: translate(0px, 0px);
+    }
+}
